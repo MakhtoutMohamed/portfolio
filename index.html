@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mohamed Makhtout | CloudOps & DevSecOps Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+    header {
+      padding: 3rem 1.5rem;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.25rem;
+    }
+    h2 {
+      font-size: 1.4rem;
+      margin-top: 2.5rem;
+      border-bottom: 1px solid #1f2937;
+      padding-bottom: 0.5rem;
+    }
+    .tagline {
+      color: #9ca3af;
+      font-size: 1rem;
+    }
+    .pill {
+      display: inline-block;
+      border-radius: 999px;
+      border: 1px solid #1d4ed8;
+      padding: 0.25rem 0.75rem;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-top: 1rem;
+    }
+    main {
+      max-width: 960px;
+      margin: 0 auto 3rem;
+      padding: 0 1.5rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: #020617;
+      border-radius: 0.75rem;
+      padding: 1.5rem;
+      border: 1px solid #1f2937;
+    }
+    .card h3 {
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+      font-size: 1.1rem;
+    }
+    a {
+      color: #60a5fa;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      max-width: 960px;
+      margin: 0 auto 2rem;
+      padding: 0 1.5rem;
+      font-size: 0.9rem;
+      color: #6b7280;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <span class="pill">CloudOps · DevSecOps · SRE</span>
+    <h1>Mohamed Makhtout</h1>
+    <p class="tagline">
+      I design, secure and operate cloud-native infrastructures, with a focus on
+      reliability, automation and cost control.
+    </p>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        I am a CloudOps / DevSecOps engineer based in Casablanca, Morocco.
+        I work on container platforms, CI/CD pipelines, observability stacks and
+        security controls for production environments.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills & Tools</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Cloud & Infrastructure</h3>
+          <p>AWS · Azure · OVH · Linux · Networking · VPN · Load balancers</p>
+        </div>
+        <div class="card">
+          <h3>Containers & Orchestration</h3>
+          <p>Docker · Docker Compose · Kubernetes · Helm</p>
+        </div>
+        <div class="card">
+          <h3>Automation & CI/CD</h3>
+          <p>Terraform · Ansible · GitLab CI · GitHub Actions · Jenkins</p>
+        </div>
+        <div class="card">
+          <h3>Security & Observability</h3>
+          <p>DevSecOps · TLS/PKI · WAF · Prometheus · Grafana · ELK/Splunk</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Selected Projects</h2>
+      <div class="card">
+        <h3>Multi-environment Kubernetes Platform</h3>
+        <p>
+          Designed and operated a Kubernetes-based platform with GitOps
+          workflows, centralized logging and monitoring, and automated TLS
+          management.
+        </p>
+        <p>
+          <strong>Tech:</strong> K8s, Helm, Argo CD, Prometheus, Grafana, NGINX Ingress, Cert-Manager
+        </p>
+        <!-- <p><a href="https://github.com/your-repo">View repository</a></p> -->
+      </div>
+      <div class="card">
+        <h3>Secure CI/CD Pipeline for Microservices</h3>
+        <p>
+          Built a CI/CD pipeline with security checks (SAST/DAST), container
+          image scanning, and automated deployments to staging and production.
+        </p>
+        <p>
+          <strong>Tech:</strong> GitLab CI, Docker, Trivy, Terraform, Ansible
+        </p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        GitHub: <a href="https://github.com/makhtout">github.com/makhtout</a><br />
+        LinkedIn: <a href="#">linkedin.com/in/…</a><br />
+        Email: <a href="mailto:you@example.com">you@example.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Mohamed Makhtout. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
